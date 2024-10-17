@@ -31,6 +31,8 @@ func (tree *Tree) out(id int, writer *bufio.Writer) { // output function
 
 const maxcap = 1024 * 1024 * 10
 
+// реализация бинарного дерева, а также манипуляций с ним
+// на основе входящих данных
 func main() {
 	fi, err := os.Open("input.txt")
 	if err != nil {
